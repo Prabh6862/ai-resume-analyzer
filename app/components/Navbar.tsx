@@ -11,6 +11,9 @@ const Navbar: React.FC = () => {
         <Link to = "/upload" className = "primary-button w-fit">
             Upload Resume
         </Link>
+        <Link to = "/wipe" className = "primary-button w-fit">
+                Wipe Data
+            </Link>
     </nav>
   )
 }
